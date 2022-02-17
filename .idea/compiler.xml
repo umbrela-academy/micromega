@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="re-see" />
+        <module name="config" />
+        <module name="discovery" />
+        <module name="dev-ta" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="17" />
+      <module name="dev-ta" target="17" />
+      <module name="discovery" target="17" />
+      <module name="re-see" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config" options="-parameters" />
+      <module name="dev-ta" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="re-see" options="-parameters" />
+    </option>
+  </component>
+</project>
